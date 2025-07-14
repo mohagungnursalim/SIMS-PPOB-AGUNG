@@ -9,7 +9,7 @@
             $imageUrl = $user['profile_image'] ?? '';
             $defaultImage = base_url('img/foto-profil.png');
 
-            // Cek apakah image kosong atau mengandung "/null"
+            // Cek apakah image kosong atau mengandung null dari response API
             $finalImage = (empty($imageUrl) || str_ends_with($imageUrl, '/null'))
                 ? $defaultImage
                 : esc($imageUrl);
