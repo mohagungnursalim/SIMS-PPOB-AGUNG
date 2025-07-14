@@ -14,7 +14,7 @@
                 ? $defaultImage
                 : esc($imageUrl);
         ?>
-        <img src="<?= $finalImage ?>" alt="Avatar" class="w-16 h-16 rounded-full object-cover">
+        <img src="<?= $finalImage ?>" alt="Avatar" class="mt-2 w-20 h-20 rounded-full object-cover">
 
             <span class="absolute bottom-0 right-0 bg-white p-1 rounded-full shadow">
                 <svg class="w-4 h-4 text-gray-600" fill="currentColor" viewBox="0 0 20 20">
